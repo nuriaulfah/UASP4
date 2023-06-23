@@ -1,0 +1,206 @@
+CRITICAL - 2023-06-22 10:21:56 --> syntax error, unexpected '*', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Models\MapelModel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\uas\\app\\Models\\MapelModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MapelModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MapelModel')
+ 4 APPPATH\Controllers\Mapel.php(13): spl_autoload_call('App\\Models\\MapelModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 10:27:38 --> syntax error, unexpected ''sks'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Models\MapelModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\uas\\app\\Models\\MapelModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MapelModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MapelModel')
+ 4 APPPATH\Controllers\Mapel.php(13): spl_autoload_call('App\\Models\\MapelModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 10:27:47 --> syntax error, unexpected ''sks'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Models\MapelModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\uas\\app\\Models\\MapelModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MapelModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MapelModel')
+ 4 APPPATH\Controllers\Mapel.php(13): spl_autoload_call('App\\Models\\MapelModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 10:29:49 --> syntax error, unexpected ''sks'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Models\MapelModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\uas\\app\\Models\\MapelModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MapelModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MapelModel')
+ 4 APPPATH\Controllers\Mapel.php(13): spl_autoload_call('App\\Models\\MapelModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 13:50:24 --> syntax error, unexpected '*', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Models\MapelModel.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\uas\\app\\Models\\MapelModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MapelModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MapelModel')
+ 4 APPPATH\Controllers\Mapel.php(13): spl_autoload_call('App\\Models\\MapelModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 13:50:25 --> syntax error, unexpected '*', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Models\MapelModel.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\uas\\app\\Models\\MapelModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MapelModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MapelModel')
+ 4 APPPATH\Controllers\Mapel.php(13): spl_autoload_call('App\\Models\\MapelModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:06:40 --> Call to a member function getData() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:20:14 --> Call to a member function getData() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:20:33 --> Call to a member function getData() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:42:40 --> Call to a member function getData() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:44:32 --> Call to a member function getData() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:45:38 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:46:00 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:50:07 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:50:38 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:51:26 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:51:42 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:55:41 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 15:58:28 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 16:00:19 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 16:00:56 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 16:01:55 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 16:04:21 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 16:07:12 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 16:09:13 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-22 16:10:30 --> Call to a member function getMapel() on null
+in APPPATH\Controllers\Mapel.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')

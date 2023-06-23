@@ -1,0 +1,65 @@
+CRITICAL - 2023-06-23 02:23:24 --> Cannot redeclare App\Models\MapelModel::getMapel()
+in APPPATH\Models\MapelModel.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-06-23 02:41:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM mapel' at line 2 in C:\xampp\htdocs\uas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\uas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT murid.jk...', 0)
+#1 C:\xampp\htdocs\uas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT murid.jk...')
+#2 C:\xampp\htdocs\uas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT murid.jk...')
+#3 C:\xampp\htdocs\uas\app\Models\MapelModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT murid.jk...')
+#4 C:\xampp\htdocs\uas\app\Controllers\Mapel.php(15): App\Models\MapelModel->getMapel()
+#5 C:\xampp\htdocs\uas\system\CodeIgniter.php(932): App\Controllers\Mapel->index()
+#6 C:\xampp\htdocs\uas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+#7 C:\xampp\htdocs\uas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-23 02:41:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM mapel' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT murid.jk, count(*) AS jumlah, mapel.nama_mapel FROM murid LEFT JOIN mapel on mapel.id_mapel = murid.id_mapel group by mapel.nama_mapel, murid.jk order by murid.jk asc, mapel.nama_mapel desc
+        SELECT * FROM mapel', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT murid.jk, count(*) AS jumlah, mapel.nama_mapel FROM murid LEFT JOIN mapel on mapel.id_mapel = murid.id_mapel group by mapel.nama_mapel, murid.jk order by murid.jk asc, mapel.nama_mapel desc
+        SELECT * FROM mapel')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT murid.jk, count(*) AS jumlah, mapel.nama_mapel FROM murid LEFT JOIN mapel on mapel.id_mapel = murid.id_mapel group by mapel.nama_mapel, murid.jk order by murid.jk asc, mapel.nama_mapel desc
+        SELECT * FROM mapel')
+ 4 APPPATH\Models\MapelModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT murid.jk, count(*) AS jumlah, mapel.nama_mapel FROM murid LEFT JOIN mapel on mapel.id_mapel = murid.id_mapel group by mapel.nama_mapel, murid.jk order by murid.jk asc, mapel.nama_mapel desc
+        SELECT * FROM mapel')
+ 5 APPPATH\Controllers\Mapel.php(15): App\Models\MapelModel->getMapel()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-23 03:13:38 --> Invalid argument supplied for foreach()
+in APPPATH\Views\mapel2.php on line 35.
+ 1 APPPATH\Views\mapel2.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\uas\\app\\Views\\mapel2.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\uas\\app\\Views\\mapel2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('mapel2', [], true)
+ 5 APPPATH\Controllers\Mapel2.php(17): view('mapel2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel2->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel2))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-23 04:35:13 --> syntax error, unexpected 'murid' (T_STRING)
+in APPPATH\Models\MapelModel3.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\uas\\app\\Models\\MapelModel3.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MapelModel3')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MapelModel3')
+ 4 APPPATH\Controllers\Mapel3.php(8): spl_autoload_call('App\\Models\\MapelModel3')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Mapel3->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
+CRITICAL - 2023-06-23 04:35:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Mapel3.php(15): CodeIgniter\Model->__call('getMapel3', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mapel3->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel3))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uas\\public\\index.php')
